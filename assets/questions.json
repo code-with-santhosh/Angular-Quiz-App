@@ -1,0 +1,139 @@
+[
+  {
+    "question": "Angular is written in which language?",
+    "options": ["Java", "Python", "TypeScript", "Ruby"],
+    "answer": "TypeScript"
+  },
+
+  {
+    "question": "Which command is used to create a new Angular project?",
+    "options": ["ng init", "ng new", "ng start", "ng create"],
+    "answer": "ng new"
+  },
+  {
+    "question": "Which lifecycle hook is called after a component's view has been fully initialized?",
+    "options": ["ngOnInit", "ngAfterViewInit", "ngOnDestroy", "ngOnChanges"],
+    "answer": "ngAfterViewInit"
+  },
+
+  {
+    "question": "What is the purpose of RxJS in Angular?",
+    "options": [
+      "Managing database",
+      "Handling asynchronous data",
+      "Styling components",
+      "Creating animations"
+    ],
+    "answer": "Handling asynchronous data"
+  },
+
+  {
+    "question": "Which service is used for making HTTP requests in Angular?",
+    "options": ["HttpService", "HttpModule", "HttpClient", "HttpRequest"],
+    "answer": "HttpClient"
+  },
+  {
+    "question": "Which command is used to serve an Angular project locally?",
+    "options": ["ng start", "ng serve", "ng run", "ng test"],
+    "answer": "ng serve"
+  },
+
+  {
+    "question": "Which Angular feature allows you to navigate between different views?",
+    "options": ["Pipes", "Routing", "Services", "Directives"],
+    "answer": "Routing"
+  },
+  {
+    "question": "Which of the following is a structural directive?",
+    "options": ["ngStyle", "ngClass", "ngIf", "ngModel"],
+    "answer": "ngIf"
+  },
+  {
+    "question": "Which file contains the metadata for an Angular project?",
+    "options": ["index.html", "main.ts", "angular.json", "styles.css"],
+    "answer": "angular.json"
+  },
+
+  {
+    "question": "Which decorator is used to create a service in Angular?",
+    "options": ["@Component", "@Directive", "@Injectable", "@NgModule"],
+    "answer": "@Injectable"
+  },
+  {
+    "question": "What is a pipe used for in Angular?",
+    "options": [
+      "To handle HTTP requests",
+      "To transform data in templates",
+      "To create components",
+      "To inject services"
+    ],
+    "answer": "To transform data in templates"
+  },
+  {
+    "question": "Which symbol is used to declare an Angular pipe?",
+    "options": ["$", "#", "|", "&"],
+    "answer": "|"
+  },
+  {
+    "question": "What does Angular use to track changes and update the DOM?",
+    "options": ["Change Detection", "Dependency Injection", "Routing", "Pipes"],
+    "answer": "Change Detection"
+  },
+  {
+    "question": "Which file is the entry point of an Angular application?",
+    "options": ["main.ts", "index.html", "angular.json", "app.module.ts"],
+    "answer": "main.ts"
+  },
+
+  {
+    "question": "Which Angular directive helps to iterate over a list?",
+    "options": ["*ngIf", "*ngSwitch", "*ngFor", "*ngModel"],
+    "answer": "*ngFor"
+  },
+
+  {
+    "question": "Which lifecycle hook is called when a component is destroyed?",
+    "options": ["ngOnInit", "ngOnChanges", "ngAfterViewInit", "ngOnDestroy"],
+    "answer": "ngOnDestroy"
+  },
+  {
+    "question": "What is a Zone in Angular?",
+    "options": [
+      "A component",
+      "An event handler",
+      "A library to intercept async operations",
+      "A lifecycle hook"
+    ],
+    "answer": "A library to intercept async operations"
+  },
+  {
+    "question": "How does Angular handle Ahead-Of-Time (AOT) compilation?",
+    "options": [
+      "At runtime",
+      "During application startup",
+      "During build time",
+      "During rendering"
+    ],
+    "answer": "During build time"
+  },
+  {
+    "question": "What is a 'resolved' guard in Angular routing?",
+    "options": [
+      "Pre-fetches data before navigating",
+      "Blocks navigation",
+      "Handles lazy loading",
+      "Handles query parameters"
+    ],
+    "answer": "Pre-fetches data before navigating"
+  },
+  {
+    "question": "What does the async pipe automatically do for Observables?",
+    "options": [
+      "Unsubscribes when component is destroyed",
+      "Manages HTTP errors",
+      "Triggers lifecycle hooks",
+      "Cancels API calls"
+    ],
+    "answer": "Unsubscribes when component is destroyed"
+  }
+]
