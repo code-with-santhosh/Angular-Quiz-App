@@ -1,0 +1,9 @@
+<div class="results-container">
+  <h1>Quiz Results</h1>
+  <p *ngIf="score === 0 || totalQuestions === 0">Results Not Available</p>
+  <p *ngIf="score > 0 && totalQuestions > 0">
+    You Scored <strong>{{ score }}</strong> out of
+    <strong>{{ totalQuestions }}</strong>
+  </p>
+  <button routerLink="/">Restart Quiz</button>
+</div>

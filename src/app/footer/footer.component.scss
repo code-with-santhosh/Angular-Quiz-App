@@ -1,0 +1,42 @@
+.footer {
+  background-color: #f8f9fa;
+  color: #212529;
+  font-size: 14px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto; /* auto height so it adjusts on small screens */
+  padding: 8px 16px; /* same as py-2 */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* for responsive behavior */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #212529;
+  margin: 0 4px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.footer a .bi {
+  font-size: 18px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive tweak for very small screens */
+@media (max-width: 480px) {
+  .footer span {
+    display: block;
+    text-align: center;
+    line-height: 1.6;
+  }
+}
